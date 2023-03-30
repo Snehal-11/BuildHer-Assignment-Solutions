@@ -2,45 +2,6 @@
 #include<vector>
 using namespace std;
 
-/*struct element{
-    public:
-    int ele;
-    int cnt=0;
-
-} 
-
-int Solution::repeatedNumber(const vector<int> &A){
-    element arr[2];
-    for(auto i:A)
-    {
-        int j=0,k=0;
-        for(j=0;j<2;j++){
-
-            if(arr[j].ele==1){
-                arr[j].cnnt++;
-                break;
-            }
-        }
-        if(j==2){
-            for(k=0;k<2;k++){
-
-                arr[k].ele=i;
-                arr[k].cnt=1;
-                break;
-            }
-        }
-    }
-    if(k==2)
-    {
-        for(k=0;k<2;k++){
-            arr[k].cnt--;
-        }
-
-    }
-    int xcnt=0,ycnt=0;
-
-}*/
-
 vector<int> majorityElement(vector<int>& nums) {
     int n = nums.size();
     
